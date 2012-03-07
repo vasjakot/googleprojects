@@ -3,19 +3,12 @@
 import gdata.analytics.client
 import gdata.sample_util
 
-#email = 'craig.tenthwave@gmail.com'.encode("utf-8")
-#password = '3spr3ss0'.encode("utf-8")
-#email='eugineosipov@gmail.com'
-#password='preferans'
+
 
 
 
 def main():
-    """
-    Main function
-    """
-    email = "eugineosipov@gmail.com"
-    password = "preferans"
+
     feeds = DataFeed(email,password,0)
 
     #feeds.FeedDetails()
